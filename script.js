@@ -155,7 +155,7 @@ resetBtn.addEventListener('click', () => {
     currentQuestion = 0;
     score = 0;
     scoreE1.textContent = "";
-    nextBtn.style.display = 'inline-block';
+    nextBtn.style.display = 'block';
     resetBtn.style.display = 'none';
     shuffledQuestions = shuffleArray([...questions]);
     userAnswers = new Array(questions.length).fill(null);
@@ -166,7 +166,8 @@ resetBtn.addEventListener('click', () => {
 function showScore() {
     questionE1.textContent = `Quiz completed`;
     optionsE1.innerHTML = "";
-    nextBtn.style.display = 'none';
+    resetBtn.style.display = 'inline-block';  
+    nextBtn.style.display='none';
 
     let message = "";
     if (score === shuffledQuestions.length) {
@@ -178,7 +179,7 @@ function showScore() {
     }
 
     scoreE1.innerHTML = `    <div style="font-size: 1.5rem; font-weight: bold; color: #333;">
-Your score: ${score} out of ${shuffledQuestions.length}</div><br>    <div style="font-size: 1.5rem; margin-top: 10px;">
+Your score: ${score} out of ${shuffledQuestions.length}</div><br>    <div style="font-size: 1.2rem; margin-top: 10px;">
 ${message}</div>`;
 
     if (score > highScore) {
@@ -186,10 +187,9 @@ ${message}</div>`;
         highScore = score;
         scoreE1.innerHTML += `<br><div style="font-size: 1.5rem;"> New high score</div>`;
     } else {
-        scoreE1.innerHTML += `<br><div style="font-size: 1.5rem; ">HighScore: ${highScore}</div>`;
+        scoreE1.innerHTML += `<br><div style="font-size: 1.2rem; ">HighScore: ${highScore}</div>`;
     }
 
-    resetBtn.style.display = 'inline-block';
     progressBar.style.width = "100%";
     progressBar.textContent = "Done";
     clearInterval(timer);
@@ -223,6 +223,7 @@ function startTimer() {
         }
     }, 1000); 
 }
+resetBtn.style.display = 'none';  
 
 loadQuestion();
 startTimer();
