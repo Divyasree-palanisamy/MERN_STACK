@@ -1,0 +1,127 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(180deg, #8c86f6 0%, #6053e7 100%);    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    min-height: 100vh;
+    padding: 40px;
+}
+ #timer{
+    color: #eabcff;
+    top: 5px;
+    animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.quiz-container{
+    background: rgba(70, 157, 164, 0.4);
+    padding: 20px;
+    border: 2px solid aliceblue;
+    border-color: aliceblue;
+    box-shadow: #f7f8e7;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+.quiz-container:hover{
+    border-radius: 15px;
+    cursor: pointer;
+    border-color: #eabcff;
+    box-shadow: 15px 15px 15px 15px;
+}
+h1{
+    color: rgb(74, 24, 210);
+    border: 2px solid purple;
+    border-radius: 5px;
+    background-color: #eabcff;
+    box-shadow: 10px 0px 10px 0px ;
+    padding: 10px;
+}
+h2{
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(11, 12, 12);
+    padding: 5px;
+}
+.option {
+    background: #5fbed1;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    user-select: none;
+    transition: background-color 0.3s;
+}
+
+.option:hover {
+    background-color: #98dadf;
+}
+
+.correct {
+    background-color: #61ea81 !important;
+    color: white;
+}
+
+.incorrect {
+    background-color: #f3606e !important;
+    color: white;
+}
+#nextBtn{
+    padding: 10px 20px;
+    background: rgb(13, 22, 22);    
+    border-radius: 5px;
+    color: white;
+    float: right;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#nextBtn:disabled{
+    background: #aaa;
+    cursor: not-allowed;
+}
+#score{
+    font-size: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+#resetBtn{
+    padding: 10px 20px;
+        background: violet;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        margin-top: 10px;
+}
+    #resetBtn:hover{
+        background: #ac65cd;
+    }
+
+    
+    #progressContainer{
+        background-color: #f7f8e7;
+        width: 100%;
+        border-radius: 20px;
+        height: 20px;
+    }
+    #progressBar{
+        width: 0%;
+        background-color: rgb(134, 231, 140);
+        height: 90%;
+        border-radius: 20px;
+        text-align: center;
+        line-height: 20px;
+        color: white;
+        transition: width 0.4s ease;
+
+    }
