@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Quiz App</h1>
+
+    <div class="quiz-container">
+        <div id="progressContainer">
+            <div id="progressBar"></div>
+        </div>
+        <div id="timer">Timer</div>
+        <h2 id="question">Question text here</h2>
+        <div id="options"></div>
+        <button id="nextBtn">Next</button>
+        <div id="score"></div>
+        <button id="resetBtn">Reset Quiz</button>
+
+    </div>
+    <audio id="correctSound" src="./sounds/correct.mp3" ></audio>
+    <audio id="wrongSound" src="./sounds/wrong.mp3" ></audio>
+    <audio id="completedSound" src="./sounds/complete.mp3" ></audio>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
