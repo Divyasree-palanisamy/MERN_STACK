@@ -123,7 +123,7 @@ function selectOption(selectedE1, selectedAnswer) {
             score++;
             correctSound.play();
         }
-       
+
     }
 
     userAnswers[currentQuestion] = selectedAnswer;
@@ -147,7 +147,7 @@ nextBtn.addEventListener('click', () => {
         loadQuestion();
     } else {
         showScore();
-        completedSound.play(); 
+        completedSound.play();
     }
 });
 
@@ -166,8 +166,8 @@ resetBtn.addEventListener('click', () => {
 function showScore() {
     questionE1.textContent = `Quiz completed`;
     optionsE1.innerHTML = "";
-    resetBtn.style.display = 'inline-block';  
-    nextBtn.style.display='none';
+    resetBtn.style.display = 'inline-block';
+    nextBtn.style.display = 'none';
 
     let message = "";
     if (score === shuffledQuestions.length) {
@@ -219,11 +219,11 @@ function startTimer() {
         if (timeLeft <= 0) {
             clearInterval(timer);
             showScore();
-            completedSound.play(); 
+            completedSound.play();
         }
-    }, 1000); 
+    }, 1000);
 }
-resetBtn.style.display = 'none';  
+resetBtn.style.display = 'none';
 
 loadQuestion();
 startTimer();
