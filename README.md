@@ -1,92 +1,58 @@
-# 🎯 Quiz App - My First Frontend Project
+# 🚀 My Frontend Development Journey
 
-Hey there! 👋 This is my first complete web project built with HTML, CSS, and JavaScript. I created this interactive quiz application to practice and showcase the frontend skills I've learned.
+Welcome to my portfolio of frontend projects! 👋 This repository showcases my learning journey from basic HTML/CSS/JavaScript to modern React development.
 
-## 🎯 About This Project
+## 🎯 My Projects
 
-After learning the basics of HTML, CSS, and JavaScript, I wanted to build something fun and interactive. This quiz app lets users test their knowledge with multiple-choice questions and provides immediate feedback.
+### 🎮 [Quiz App](/Quiz_app/) - My First Frontend Project
+**Technologies:** HTML, CSS, JavaScript
 
-## ✨ What I Built
+My very first complete web project! A fun and interactive quiz application that tests knowledge with multiple-choice questions, includes a timer, sound effects, and tracks scores.
 
-- **🎮 Interactive Quiz Interface** - Multiple choice questions with real-time feedback
-- **📊 Score Tracking** - Keeps track of correct answers and displays final score
-- **⏱️ Timer Functionality** - 60-second countdown for each quiz
-- **🔊 Sound Effects** - Audio feedback for correct/incorrect answers
-- **📈 Progress Bar** - Visual indicator of quiz progress
-- **📱 Responsive Design** - Works on different screen sizes
+**What you'll find:**
+- Interactive quiz interface with real-time feedback
+- Timer functionality and score tracking
+- Sound effects and progress indicators
+- Responsive design for all devices
+- Complete documentation of HTML, CSS, and JavaScript skills learned
 
-## 🛠️ Technologies Used
+**[📖 View Project Details →](/Quiz_app/)**
 
-- **🌐 HTML** - Structure and content of the quiz
-- **🎨 CSS** - Styling, animations, and responsive design
-- **💻 JavaScript** - Quiz logic, timer, scoring, and interactivity
+---
 
-## 📁 Project Structure
+### ⚡ [Kit-Speed Typing Test](/kit-speed-test/) - My Second Project After Learning React
+**Technologies:** React, JavaScript, CSS, Vite
 
-```
-Quiz_app/
-├── 📄 index.html          # Main HTML file
-├── 🎨 style.css           # CSS styling
-├── 💻 script.js           # JavaScript functionality
-└── 🔊 sounds/             # Audio files
-    ├── ✅ correct.mp3     # Sound for correct answers
-    ├── ❌ wrong.mp3       # Sound for wrong answers
-    └── 🎉 complete.mp3    # Sound for quiz completion
-```
+After learning React, I built this typing speed test application to practice my new skills while creating something useful for improving typing speed and accuracy.
 
-## 🚀 How to Use
+**What you'll find:**
+- Real-time typing test with character-by-character feedback
+- WPM and accuracy calculations
+- Sound effects and visual indicators
+- Modern React architecture with hooks
+- Comprehensive documentation of React development skills
 
-1. Open `index.html` in any web browser
-2. Click "Start Quiz" to begin
-3. Answer the multiple-choice questions
-4. See your final score when the quiz ends
-5. Click "Try Again" to take another quiz
-
-## 🎯 Features I Implemented
-
-### 🌐 HTML Skills
-- Semantic HTML structure
-- Forms and input elements
-- Proper heading hierarchy
-- Accessible markup
-
-### 🎨 CSS Skills
-- Responsive design with media queries
-- CSS Grid and Flexbox layouts
-- Animations and transitions
-- Color schemes and typography
-- Hover effects and visual feedback
-
-### 💻 JavaScript Skills
-- DOM manipulation
-- Event handling
-- Timer functionality
-- Array manipulation
-- Local storage (for high scores)
-- Audio integration
-- Dynamic content generation
-
-## 📚 What I Learned
-
-### 🌐 HTML
-
-### 🎨 CSS
-
-### 💻 JavaScript
+**[📖 View Project Details →](/kit-speed-test/)**
 
 ## 🌟 My Learning Journey
 
-This project helped me understand how HTML, CSS, and JavaScript work together to create interactive web applications. I learned about:
+### 📈 Growth Timeline
+1. **Quiz App** - Started with HTML, CSS, and vanilla JavaScript
+2. **Kit-Speed Typing Test** - Advanced to React and modern development tools
 
-- **🌐 Frontend Development** - How to build user interfaces
-- **📱 Responsive Design** - Making websites work on all devices
-- **💻 JavaScript Logic** - Programming interactive features
-- **🎯 User Experience** - Creating engaging and intuitive interfaces
+### 🛠️ Skills Developed
+- **Frontend Technologies:** HTML5, CSS3, JavaScript (ES6+), React
+- **Development Tools:** Vite, ESLint, npm
+- **Design Principles:** Responsive design, user experience, accessibility
+- **Modern Practices:** Component-based architecture, state management, hooks
 
-Building this quiz app gave me confidence in my frontend skills and motivated me to learn more advanced concepts.
+## 🚀 Getting Started
 
----
+Each project has its own detailed README with:
+- Complete project description and features
+- Technologies used and project structure
+- Installation and usage instructions
+- Detailed breakdown of skills implemented
+- Learning outcomes and personal journey
 
-*This is my first complete frontend project. I'm excited to continue learning and building more complex applications! 🚀*
-
----
+Click on any project above to explore it in detail!
